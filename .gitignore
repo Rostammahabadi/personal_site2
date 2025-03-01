@@ -6,4 +6,6 @@ yarn-error.log*
 pnpm-debug.log*
 node_modules
 dist
-public
+# Allow the downloads directory and its contents
+!public/downloads
+!public/downloads/*
