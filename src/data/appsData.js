@@ -1,5 +1,6 @@
 import screenButlerImage from '../assets/images/screen_butler/screen_butler_main.png';
 import meshGradientImage from '../assets/images/swift_mesh_generator/mesh_generator.png';
+import decordImage from '../assets/images/decord/decord.png';
 
 export const appsData = [
   {
@@ -22,4 +23,14 @@ export const appsData = [
     downloadBtnText: 'Download Library',
     technologies: ['Swift', 'SwiftUI'],
   },
+  {
+    id: 'decord',
+    name: 'Decord',
+    description: 'Instant shareable link to your screen recordings, with data privacy in mind.',
+    imageUrl: decordImage,
+    demoUrl: 'https://decord.app',
+    downloadUrl: 'https://decord.app',
+    downloadBtnText: 'Download App',
+    technologies: ['Swift', 'SwiftUI', 'CoreML'],
+  }
 ]; 
