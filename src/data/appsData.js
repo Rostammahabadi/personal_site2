@@ -1,4 +1,5 @@
 import screenButlerImage from '../assets/images/screen_butler/screen_butler_main.png';
+import meshGradientImage from '../assets/images/swift_mesh_generator/mesh_generator.png';
 
 export const appsData = [
   {
@@ -8,15 +9,17 @@ export const appsData = [
     imageUrl: screenButlerImage,
     demoUrl: 'https://github.com/Rostammahabadi/screen_butler',
     downloadUrl: 'https://github.com/Rostammahabadi/screen_butler/releases/download/1.0/ScreenButler.zip',
+    downloadBtnText: 'Download App',
     technologies: ['Swift', 'SwiftUI', 'CoreML'],
   },
-  // {
-  //   id: 'mesh-gradient',
-  //   name: 'Mesh Gradient',
-  //   description: 'A SwiftUI component library for creating beautiful, customizable gradients.',
-  //   imageUrl: meshGradientImage,
-  //   demoUrl: 'https://github.com/Rostammahabadi/swift_mesh_generator',
-  //   downloadUrl: '/downloads/MeshGradient.zip',
-  //   technologies: ['Swift', 'SwiftUI'],
-  // },
+  {
+    id: 'mesh-gradient',
+    name: 'Mesh Gradient',
+    description: 'A SwiftUI component library for creating beautiful, customizable gradients.',
+    imageUrl: meshGradientImage,
+    demoUrl: 'https://github.com/Rostammahabadi/swift_mesh_generator',
+    downloadUrl: 'https://github.com/Rostammahabadi/swift_mesh_generator/releases/download/1.0/MeshGradient.zip',
+    downloadBtnText: 'Download Library',
+    technologies: ['Swift', 'SwiftUI'],
+  },
 ]; 
